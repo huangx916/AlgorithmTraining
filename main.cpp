@@ -23,9 +23,9 @@ int main()
 	int ret = sln343.integerBreak(10);
 	cout << ret << endl;*/
 
-	Solution482 sln482;
+	/*Solution482 sln482;
 	string ret = sln482.licenseKeyFormatting("t5F3Z-2e-9-w", 4);
-	cout << ret << endl;
+	cout << ret << endl;*/
 
 
 
