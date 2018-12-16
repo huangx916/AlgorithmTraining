@@ -1,0 +1,16 @@
+
+*.lib
+*.pdb
+*.exe
+*.ilk
+*.idb
+*.tlog*.obj
+*.db
+*.cache
+*.log
+!*.user
+.vs/AlgorithmTraining/v14/.suo
+*.opendb
+*.obj
+*.tlog
+AlgorithmTraining.vcxproj.user
