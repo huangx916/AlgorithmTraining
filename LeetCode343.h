@@ -1,10 +1,10 @@
-#pragma once
+ï»¿#pragma once
 #include <vector>
 #include <algorithm>
 
 using namespace std;
 
-// ÕûÊı²ğ·Ö£¬¶¯Ì¬¹æ»®dp
+// æ•´æ•°æ‹†åˆ†ï¼ŒåŠ¨æ€è§„åˆ’dp
 class Solution343
 {
 public:
@@ -17,7 +17,7 @@ public:
 			for (int j = 1; j < i; ++j)
 			{
 				//dp[i] = max(dp[i], dp[i - j] * j);
-				// i-j²ğ·ÖÇé¿öÏÂÎªdp[i - j] * j£¬²»²ğ·ÖÇé¿öÏÂÎª(i - j)*j
+				// i-jæ‹†åˆ†æƒ…å†µä¸‹ä¸ºdp[i - j] * jï¼Œä¸æ‹†åˆ†æƒ…å†µä¸‹ä¸º(i - j)*j
 				dp[i] = max(dp[i], max(dp[i - j] * j, (i - j)*j));
 			}
 		}

@@ -1,9 +1,9 @@
-#pragma once
+ï»¿#pragma once
 #include <vector>
 
 using namespace std;
 
-// N»ÊºóÎÊÌâ£¬Ê¹ÓÃDSF¼°»ØËİ·¨
+// Nçš‡åé—®é¢˜ï¼Œä½¿ç”¨DSFåŠå›æº¯æ³•
 class Solution51
 {
 public:
@@ -29,7 +29,7 @@ public:
 			{
 				state.push_back(i);
 				DFS(row + 1, n, state, total, ret);
-				// »ØËİ·¨
+				// å›æº¯æ³•
 				state.pop_back();
 			}
 		}

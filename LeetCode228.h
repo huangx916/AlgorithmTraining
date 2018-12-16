@@ -1,11 +1,11 @@
-#pragma once
+ï»¿#pragma once
 #include <vector>
 #include <string>
 #include <algorithm>
 
 using namespace std;
 
-// ×¢ÒâÊäÈëÎª[]µÄÇé¿ö
+// æ³¨æ„è¾“å…¥ä¸º[]çš„æƒ…å†µ
 class Solution228
 {
 public:

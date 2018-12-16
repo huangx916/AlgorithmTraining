@@ -1,9 +1,9 @@
-#pragma once
+ï»¿#pragma once
 #include <string>
 
 using namespace std;
 
-// ¼òµ¥£¬×¢ÒâreverseÓÃ·¨
+// ç®€å•ï¼Œæ³¨æ„reverseç”¨æ³•
 class Solution482
 {
 public:
