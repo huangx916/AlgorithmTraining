@@ -6,6 +6,7 @@
 #include "LeetCode228.h"
 #include "LeetCode343.h"
 #include "LeetCode482.h"
+#include "LeetCode523.h"
 #include "LeetCode560.h"
 #include "LeetCode938.h"
 
@@ -32,10 +33,15 @@ int main()
 	string ret = sln482.licenseKeyFormatting("t5F3Z-2e-9-w", 4);
 	cout << ret << endl;*/
 
-	Solution560 sln560;
+	Solution523 sln523;
+	vector<int> vec = { 0,0 };
+	bool ret = sln523.checkSubarraySum(vec, 0);
+	cout << ret << endl;
+
+	/*Solution560 sln560;
 	vector<int> vec = { 1, 1, 0, 1, 1 };
 	int ret = sln560.subarraySum1(vec, 2);
-	cout << ret << endl;
+	cout << ret << endl;*/
 
 	/*Solution938 sln938;
 	TreeNode n1(10);
