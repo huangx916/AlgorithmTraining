@@ -6,6 +6,7 @@
 #include "LeetCode228.h"
 #include "LeetCode343.h"
 #include "LeetCode482.h"
+#include "LeetCode560.h"
 #include "LeetCode938.h"
 
 using namespace std;
@@ -31,7 +32,12 @@ int main()
 	string ret = sln482.licenseKeyFormatting("t5F3Z-2e-9-w", 4);
 	cout << ret << endl;*/
 
-	Solution938 sln938;
+	Solution560 sln560;
+	vector<int> vec = { 1, 1, 0, 1, 1 };
+	int ret = sln560.subarraySum1(vec, 2);
+	cout << ret << endl;
+
+	/*Solution938 sln938;
 	TreeNode n1(10);
 	TreeNode n2(5);
 	TreeNode n3(15);
@@ -44,7 +50,7 @@ int main()
 	n2.right = &n5;
 	n3.right = &n6;
 	int ret = sln938.rangeSumBST(&n1, 7, 15);
-	cout << ret << endl;
+	cout << ret << endl;*/
 
 
 	system("pause");
