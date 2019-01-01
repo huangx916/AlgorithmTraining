@@ -5,6 +5,7 @@
 #include "LeetCode52.h"
 #include "LeetCode228.h"
 #include "LeetCode343.h"
+#include "LeetCode447.h"
 #include "LeetCode482.h"
 #include "LeetCode523.h"
 #include "LeetCode560.h"
@@ -29,14 +30,19 @@ int main()
 	int ret = sln343.integerBreak(10);
 	cout << ret << endl;*/
 
+	Solution447 sln447;
+	vector<pair<int, int>> points = { { 0,0 },{ 0,1 },{ 0,2 } };
+	int ret = sln447.numberOfBoomerangs(points);
+	cout << ret << endl;
+
 	/*Solution482 sln482;
 	string ret = sln482.licenseKeyFormatting("t5F3Z-2e-9-w", 4);
 	cout << ret << endl;*/
 
-	Solution523 sln523;
+	/*Solution523 sln523;
 	vector<int> vec = { 0,0 };
 	bool ret = sln523.checkSubarraySum(vec, 0);
-	cout << ret << endl;
+	cout << ret << endl;*/
 
 	/*Solution560 sln560;
 	vector<int> vec = { 1, 1, 0, 1, 1 };
