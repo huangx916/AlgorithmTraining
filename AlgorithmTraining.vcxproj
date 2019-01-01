@@ -116,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeetCode228.h" />
+    <ClInclude Include="LeetCode268.h" />
     <ClInclude Include="LeetCode343.h" />
     <ClInclude Include="LeetCode447.h" />
     <ClInclude Include="LeetCode482.h" />
