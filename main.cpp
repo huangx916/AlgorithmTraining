@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include "LeetCode1.h"
+#include "LeetCode2.h"
 #include "LeetCode3.h"
 #include "LeetCode51.h"
 #include "LeetCode52.h"
@@ -18,9 +19,22 @@ using namespace std;
 
 int main()
 {
-	Solution1 sln1;
+	/*Solution1 sln1;
 	vector<int> nums = { 2, 7, 11, 15 };
-	sln1.twoSum(nums, 9);
+	sln1.twoSum(nums, 9);*/
+
+	Solution2 sln2;
+	ListNode l11(2);
+	ListNode l12(4);
+	ListNode l13(3);
+	l11.next = &l12;
+	l12.next = &l13;
+	ListNode l21(5);
+	ListNode l22(6);
+	ListNode l23(4);
+	l21.next = &l22;
+	l22.next = &l23;
+	sln2.addTwoNumbers(&l11, &l21);
 
 	/*Solution3 sln3;
 	int ret = sln3.lengthOfLongestSubstring("pwwkew");
