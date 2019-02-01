@@ -4,6 +4,7 @@
 #include "LeetCode1.h"
 #include "LeetCode2.h"
 #include "LeetCode3.h"
+#include "LeetCode9.h"
 #include "LeetCode51.h"
 #include "LeetCode52.h"
 #include "LeetCode228.h"
@@ -23,7 +24,7 @@ int main()
 	vector<int> nums = { 2, 7, 11, 15 };
 	sln1.twoSum(nums, 9);*/
 
-	Solution2 sln2;
+	/*Solution2 sln2;
 	ListNode l11(2);
 	ListNode l12(4);
 	ListNode l13(3);
@@ -34,11 +35,15 @@ int main()
 	ListNode l23(4);
 	l21.next = &l22;
 	l22.next = &l23;
-	sln2.addTwoNumbers(&l11, &l21);
+	sln2.addTwoNumbers(&l11, &l21);*/
 
 	/*Solution3 sln3;
 	int ret = sln3.lengthOfLongestSubstring("pwwkew");
 	cout << ret << endl;*/
+
+	Solution9 sln9;
+	bool ret = sln9.isPalindrome(10);
+	cout << ret << endl;
 
 	/*Solution51 sln51;
 	sln51.solveNQueens(4);*/
