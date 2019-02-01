@@ -1,6 +1,7 @@
 ﻿#include "stdlib.h"
 #include <iostream>
 #include <string>
+#include "LeetCode3.h"
 #include "LeetCode51.h"
 #include "LeetCode52.h"
 #include "LeetCode228.h"
@@ -16,6 +17,10 @@ using namespace std;
 
 int main()
 {
+	Solution3 sln3;
+	int ret = sln3.lengthOfLongestSubstring("pwwkew");
+	cout << ret << endl;
+
 	/*Solution51 sln51;
 	sln51.solveNQueens(4);*/
 
@@ -27,10 +32,10 @@ int main()
 	vector<int> nums = { 0,1,2,4,5,7 };
 	sln228.summaryRanges(nums);*/
 
-	Solution268 sln268;
+	/*Solution268 sln268;
 	vector<int> nums = { 9,6,4,2,3,5,7,0,1 };
 	int ret = sln268.missingNumber(nums);
-	cout << ret << endl;
+	cout << ret << endl;*/
 
 	/*Solution343 sln343;
 	int ret = sln343.integerBreak(10);

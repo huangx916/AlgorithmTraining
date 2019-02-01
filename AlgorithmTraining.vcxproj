@@ -115,6 +115,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LeetCode3.h" />
     <ClInclude Include="LeetCode228.h" />
     <ClInclude Include="LeetCode268.h" />
     <ClInclude Include="LeetCode343.h" />
