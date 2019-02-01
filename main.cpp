@@ -1,6 +1,7 @@
 ﻿#include "stdlib.h"
 #include <iostream>
 #include <string>
+#include "LeetCode1.h"
 #include "LeetCode3.h"
 #include "LeetCode51.h"
 #include "LeetCode52.h"
@@ -17,9 +18,13 @@ using namespace std;
 
 int main()
 {
-	Solution3 sln3;
+	Solution1 sln1;
+	vector<int> nums = { 2, 7, 11, 15 };
+	sln1.twoSum(nums, 9);
+
+	/*Solution3 sln3;
 	int ret = sln3.lengthOfLongestSubstring("pwwkew");
-	cout << ret << endl;
+	cout << ret << endl;*/
 
 	/*Solution51 sln51;
 	sln51.solveNQueens(4);*/
