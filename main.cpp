@@ -4,6 +4,7 @@
 #include "LeetCode1.h"
 #include "LeetCode2.h"
 #include "LeetCode3.h"
+#include "LeetCode5.h"
 #include "LeetCode9.h"
 #include "LeetCode51.h"
 #include "LeetCode52.h"
@@ -41,9 +42,13 @@ int main()
 	int ret = sln3.lengthOfLongestSubstring("pwwkew");
 	cout << ret << endl;*/
 
-	Solution9 sln9;
-	bool ret = sln9.isPalindrome(10);
+	Solution5 sln5;
+	string ret = sln5.longestPalindrome("babad");
 	cout << ret << endl;
+
+	/*Solution9 sln9;
+	bool ret = sln9.isPalindrome(10);
+	cout << ret << endl;*/
 
 	/*Solution51 sln51;
 	sln51.solveNQueens(4);*/
